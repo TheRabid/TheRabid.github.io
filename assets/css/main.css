@@ -1720,6 +1720,7 @@
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
+	
 
 	header h2 + p {
 		font-size: 1.25em;
@@ -2516,6 +2517,10 @@
 			width: 100%;
 		}
 
+		#header .icons a {
+			color: rgba(255, 255, 255, 0.4);
+		}
+		
 		#header > .inner {
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
