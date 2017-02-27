@@ -2452,11 +2452,20 @@
 			color: #b2b2b2 !important;
 			cursor: default;
 		}
+		
+		.button.inactive{
+			display:none;
+		}
 
 /* Work Item */
 
 	.work-item {
 		margin: 0 0 2em 0;
+		display:none;
+	}
+	
+	.work-item.active{
+		display:block;
 	}
 
 		.work-item .image {
